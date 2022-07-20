@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Hatton; 
+    src: url('../fonts/PP\ Hatton\ Bold\ 700.otf');
+ } 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat';
+}
+/* -----------------------------Page1---------------------------- */
+.page1{
+    height: 90vh;
+    width:100%;
+    background-image: url(../images/bg_main.jpeg);
+    background-position: center;
+    background-size: cover;  
+}
+.page1 .row1{
+    height:15vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 30px 0 0 30px;
+}
+.page1 .row1 .col1{
+    width:15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.marbleDiv{
+    height: 10vh;
+    width: 3vw;
+    background-image: url('../images/marble.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2vw;
+    color: black;
+    font-family: 'Hatton', serif;
+}
+.page1 .row1 .col1 p{
+    color:black;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    font-family: 'Hatton', serif;
+}
+.page1 .row2{
+    height:15vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 0 30px 0 0;
+}
+.page1 .row2 .col1{
+    width:35vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.page1 .row2 .col1 h1,h4{
+    color:black;
+    font-family: 'Hatton', serif;
+    margin-bottom: 0px;
+}
+.page1 .row2 .col1 h1{
+    font-size: 2.5vw;
+}
+.page1 .row2 .col1 h4{
+    font-size: 1.4vw;
+}
+.page1 .row2 .col1 a{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 2vw;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+/* -------------------------------------------- Page 2------------------------------ */
+
+
+@media screen and (max-width:425px) {
+    .page1{
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .page1 .row2{
+        justify-content: center;
+        padding: 0px;
+    }
+    .page1 .row2 .col1{
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        opacity: 0.75;
+        padding: 5px;  
+    }
+    .page1 .row2 .col1 h1{
+        font-size: 2vh;
+    }
+    .page1 .row2 .col1 h4{
+        font-size: 1vh;
+    }
+    .page1 .row2 .col1 a{
+        font-size: 2vh;
+    }    
+    .marbleDiv{
+        height: 5vw;
+        width: 3vw;
+    }    
+}
