@@ -147,7 +147,7 @@
     padding: 5vh 5vw 5vh 5vw;
 }
 .page4 .row1 .col1{
-    width: 60%;
+    width: 70%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@
     padding: 0 5vw 0 5vw;
 }
 .page4 .row1 .col2{
-    width: 40%;
+    width: 30%;
     height: 100%;
     background-image: url(../images/bg_main.jpeg);
     background-size: 100% 100%;
@@ -190,7 +190,7 @@
     padding: 5vh 5vw 5vh 5vw;
 }
 .page5 .row1 .col1{
-    width: 40%;
+    width: 30%;
     height: 100%;
     background-image: url(../images/amenities.png);
     background-size: 100% 100%;
@@ -198,7 +198,7 @@
     background-position: center;
 }
 .page5 .row1 .col2{
-    width: 60%;
+    width: 70%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -217,6 +217,49 @@
     font-family: 'Hatton', serif;
 }
 .page5 .row1 .col2 p{
+    font-family: 'ABeeZee';
+}
+/* -------------------------------------------Page6---------------------------------------------- */
+.page6{
+    height: 65vh;
+    width:100%;
+}
+.page6 .row1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 5vw 5vh 5vw;
+}
+.page6 .row1 .col1{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw 0 5vw;
+}
+.page6 .row1 .col2{
+    width: 30%;
+    height: 100%;
+    background-image: url(../images/comfort_living.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page6 .row1 .col1 h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: 'Hatton', serif;
+}
+.page6 .row1 .col1 h3{
+    font-size: 1.5vw;
+    font-weight: lighter;
+    font-family: 'Hatton', serif;
+}
+.page6 .row1 .col1 p{
     font-family: 'ABeeZee';
 }
 
@@ -329,6 +372,34 @@
         font-size: 1.5vh;
     }
     .page5 .row1 .col2 p{
+        font-size: 1.3vh;
+    }
+    /* -------------------------------------------Page6---------------------------------------------- */
+    .page6{
+        height: 100vh;
+        width:100%;
+    }
+    .page6 .row1{
+        flex-direction: column-reverse;
+        margin-top: 5vh;
+    }
+    .page6 .row1 .col1{
+        width: 95%;
+        height: 50%;
+        padding: 0;
+    }
+    .page6 .row1 .col2{
+        width: 95%;
+        height: 50%;   
+    }
+    .page6 .row1 .col1 h2{
+        font-size: 2.5vh;
+        padding: 0;
+    }
+    .page6 .row1 .col1 h3{
+        font-size: 1.5vh;
+    }
+    .page6 .row1 .col1 p{
         font-size: 1.3vh;
     }
 }
