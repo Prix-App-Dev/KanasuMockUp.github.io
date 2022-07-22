@@ -306,7 +306,7 @@
     height: 50vh;
     width: 50vw;
 }
-.page8 .row1 .col2 h2,h4{
+.page8 .row1 .col2 h2,.page8 .row1 .col2 h4{
     font-family: 'ABeeZee';
     color:white;
 }
