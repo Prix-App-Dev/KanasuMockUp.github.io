@@ -353,7 +353,7 @@
     }
     /* -------------------------------------------Page2---------------------------------------------- */   
     .page2{
-        height: 40vh;
+        height: 30vh;
     }
     .page2 .row1 .col1{
         width: 95%;
@@ -370,27 +370,28 @@
     }
     /* -------------------------------------------Page3---------------------------------------------- */
     .page3{
-        height: 50vh;
+        height: 40vh;
         background-size: cover;
         background-repeat: no-repeat;
+        margin-bottom: 0px;
     }
     /* -------------------------------------------Page4---------------------------------------------- */
     .page4{
-        height: 100vh;
+        height: 75vh;
         width:100%;
     }
     .page4 .row1{
         flex-direction: column;
-        margin-top: 5vh;
+        margin-top: 1vh;
     }
     .page4 .row1 .col1{
         width: 95%;
-        height: 50%;
+        height: 35vh;
         padding: 0;
     }
     .page4 .row1 .col2{
         width: 95%;
-        height: 50%;   
+        height: 40vh;   
     }
     .page4 .row1 .col1 h2{
         font-size: 2.5vh;
@@ -404,21 +405,21 @@
     }
     /* -------------------------------------------Page5---------------------------------------------- */
     .page5{
-        height: 100vh;
+        height: 75vh;
         width:100%;
     }
     .page5 .row1{
         flex-direction: column-reverse;
-        margin-top: 5vh;
+        padding: 0;
     }
     .page5 .row1 .col2{
         width: 95%;
-        height: 50%;
+        height: 35vh;
         padding: 0;
     }
     .page5 .row1 .col1{
         width: 95%;
-        height: 50%;   
+        height: 40vh;   
     }
     .page5 .row1 .col2 h2{
         font-size: 2.5vh;
@@ -432,21 +433,21 @@
     }
     /* -------------------------------------------Page6---------------------------------------------- */
     .page6{
-        height: 100vh;
+        height: 75vh;
         width:100%;
     }
     .page6 .row1{
         flex-direction: column;
-        margin-top: 5vh;
+        margin-top: 1vh;
     }
     .page6 .row1 .col1{
         width: 95%;
-        height: 50%;
+        height: 35vh;
         padding: 0;
     }
     .page6 .row1 .col2{
         width: 95%;
-        height: 50%;   
+        height: 45vh;   
     }
     .page6 .row1 .col1 h2{
         font-size: 2.5vh;
@@ -458,9 +459,16 @@
     .page6 .row1 .col1 p{
         font-size: 1.3vh;
     }
-
+    /* -------------------------------------------- page7 --------------------------------------------- */
+    .page7{
+        height: 20vh;
+    }
+    .page7 .row1{
+        padding: 1vh;
+    }
+    /* -------------------------------------------- page8 --------------------------------------------- */
     .page8{
-        height: 80vh;
+        height: auto;
     }
     .page8 .row1{
         flex-direction: column;
@@ -469,12 +477,14 @@
     }
     .page8 .row1 .col1{
         width:95vw;
+        height: auto;
     }
     .page8 .row1 .col1 img{
         width:95vw;
     }
     .page8 .row1 .col2{
         width:95vw;
+        height: auto;
         display:flex;
         flex-direction: column;
         align-items: center;
