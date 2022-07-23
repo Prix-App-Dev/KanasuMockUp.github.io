@@ -37,6 +37,7 @@
     height: 10vh;
     width: 3vw;
     background-image: url('../images/k_logo.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -69,7 +70,7 @@
     align-items: flex-end;
     justify-content: flex-end;
 }
-.page1 .row2 .col1 h1,h4{
+.page1 .row2 .col1 h1,.page1 .row2 .col1 h4{
     color:black;
     font-family: 'Hatton', serif;
     margin-bottom: 0px;
@@ -115,13 +116,11 @@
     justify-content: center;
 }
 .page2 .row1 .col1 h2{
-    font-size: 1.5vw;
-    font-weight: 500;
+    font-size: 2vw;
     font-family: 'Hatton', serif;
 }
 .page2 .row1 .col1 h3{
-    font-size: 1.5vw;
-    font-weight: lighter;
+    font-size: 1.2vw;
     font-family: 'Hatton', serif;
 }
 .page2 .row1 .col1 p{
@@ -168,13 +167,11 @@
     background-position: center;
 }
 .page4 .row1 .col1 h2{
-    font-size: 1.5vw;
-    font-weight: 500;
+    font-size: 2vw;
     font-family: 'Hatton', serif;
 }
 .page4 .row1 .col1 h3{
-    font-size: 1.5vw;
-    font-weight: lighter;
+    font-size: 1.2vw;
     font-family: 'Hatton', serif;
 }
 .page4 .row1 .col1 p{
@@ -211,13 +208,11 @@
     padding: 0 5vw 0 5vw;
 }
 .page5 .row1 .col2 h2{
-    font-size: 1.5vw;
-    font-weight: 500;
+    font-size: 2vw;
     font-family: 'Hatton', serif;
 }
 .page5 .row1 .col2 h3{
-    font-size: 1.5vw;
-    font-weight: lighter;
+    font-size: 1.2vw;
     font-family: 'Hatton', serif;
 }
 .page5 .row1 .col2 p{
@@ -254,13 +249,11 @@
     background-position: center;
 }
 .page6 .row1 .col1 h2{
-    font-size: 1.5vw;
-    font-weight: 500;
+    font-size: 2vw;
     font-family: 'Hatton', serif;
 }
 .page6 .row1 .col1 h3{
-    font-size: 1.5vw;
-    font-weight: lighter;
+    font-size: 1.2vw;
     font-family: 'Hatton', serif;
 }
 .page6 .row1 .col1 p{
