@@ -505,7 +505,7 @@
         font-size: 4vh;
     }
     .footer{
-        height: 3vh;
+        height: 5vh;
         width:100%;
         flex-direction: column;
     }
