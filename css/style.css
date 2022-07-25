@@ -504,4 +504,9 @@
     .social-media{
         font-size: 4vh;
     }
+    .footer{
+        height: 3vh;
+        width:100%;
+        flex-direction: column;
+    }
 }
