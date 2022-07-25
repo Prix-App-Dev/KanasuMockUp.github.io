@@ -308,7 +308,19 @@
 .social-media{
     font-size: 4vw;
 }
-
+.footer{
+    height: 3vw;
+    width:100%;
+    background-color: white;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
 /* -------------------------------------------- Responsive------------------------------ */
 @media screen and (max-width:600px) {
     .page1{
