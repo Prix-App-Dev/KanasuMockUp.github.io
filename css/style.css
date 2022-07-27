@@ -138,7 +138,7 @@
 }
 /* -------------------------------------------Page4---------------------------------------------- */
 .page4{
-    height: 65vh;
+    height: 60vh;
     width:100%;
 }
 .page4 .row1{
@@ -165,6 +165,8 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 2vw;
+    box-shadow: rgba(100, 100, 111, 0.85) 0px 7px 29px 0px;
 }
 .page4 .row1 .col1 h2{
     font-size: 2vw;
@@ -179,7 +181,7 @@
 }
 /* -------------------------------------------Page5---------------------------------------------- */
 .page5{
-    height: 65vh;
+    height: 60vh;
     width:100%;
 }
 .page5 .row1{
@@ -197,6 +199,8 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 2vw;
+    box-shadow: rgba(100, 100, 111, 0.85) 0px 7px 29px 0px;
 }
 .page5 .row1 .col2{
     width: 70%;
@@ -220,7 +224,7 @@
 }
 /* -------------------------------------------Page6---------------------------------------------- */
 .page6{
-    height: 65vh;
+    height: 60vh;
     width:100%;
 }
 .page6 .row1{
@@ -247,6 +251,8 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 2vw;
+    box-shadow: rgba(100, 100, 111, 0.85) 0px 7px 29px 0px;
 }
 .page6 .row1 .col1 h2{
     font-size: 2vw;
@@ -338,8 +344,8 @@
         width: auto;
         justify-content: center;
         align-items: center;
-        /* background-color: white;
-        opacity: 0.75; */
+        background-color: white;
+        opacity: 0.75;
         padding: 5px;  
     }
     .page1 .row2 .col1 h1{
@@ -382,7 +388,7 @@
     }
     /* -------------------------------------------Page4---------------------------------------------- */
     .page4{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page4 .row1{
@@ -391,7 +397,7 @@
     }
     .page4 .row1 .col1{
         width: 95%;
-        height: 35vh;
+        height: 30vh;
         padding: 0;
     }
     .page4 .row1 .col2{
@@ -410,7 +416,7 @@
     }
     /* -------------------------------------------Page5---------------------------------------------- */
     .page5{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page5 .row1{
@@ -419,7 +425,7 @@
     }
     .page5 .row1 .col2{
         width: 95%;
-        height: 35vh;
+        height: 30vh;
         padding: 0;
     }
     .page5 .row1 .col1{
@@ -438,7 +444,7 @@
     }
     /* -------------------------------------------Page6---------------------------------------------- */
     .page6{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page6 .row1{
@@ -447,7 +453,7 @@
     }
     .page6 .row1 .col1{
         width: 95%;
-        height: 35vh;
+        height: 30vh;
         padding: 0;
     }
     .page6 .row1 .col2{
