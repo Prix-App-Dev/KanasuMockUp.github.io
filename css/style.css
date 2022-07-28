@@ -332,7 +332,7 @@
 }
 
 /* -------------------------------------------- Responsive Mobile Portrait------------------------------ */
-@media screen and (max-width:425px) {
+@media screen and (max-width:435px) {
     .page1{
         height: 50vh;
         background-image: url(../images/bg_main_mobile.png);
