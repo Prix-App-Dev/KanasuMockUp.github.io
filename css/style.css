@@ -279,7 +279,7 @@
 }
 /* -------------------------------------------Page8---------------------------------------------- */
 .page8{
-    height:70vh;
+    height:75vh;
     width:100%;
     background-color: #262830;
     color:white;
@@ -324,6 +324,8 @@
 .page8 .row1 .col2 h2,.page8 .row1 .col2 h4{
     font-family: 'ABeeZee';
     color:white;
+    
+    font-size: 3vh;
 }
 .social-media{
     font-size: 4vw;
