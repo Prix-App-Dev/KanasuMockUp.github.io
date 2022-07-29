@@ -357,7 +357,7 @@
 @media screen and (max-width:435px) {
     .page1{
         height: 50vh;
-        background-image: url(../images/bg_main_mobile.png);
+        background-image: url(../images/bg_main_mob.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: 0 0;
