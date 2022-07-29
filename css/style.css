@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
 }
 .page1 .row1 .col2{
     display: flex;
@@ -54,7 +54,7 @@
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
-    padding: 0 2vw 0 0;
+    padding: 20vh 2vw 0 0;
 }
 .page1 .row2 .col1{
     width:35vw;
@@ -370,7 +370,7 @@
     }
 
     .page1 .row2{
-        height: 30vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         padding: 0px;
@@ -527,7 +527,7 @@
     }
     .partner-logo{
         width: 25%;
-        height: 15vh;
+        height: 12vh;
     }
     .page8 .row1 .col2{
         width:95vw;
@@ -538,13 +538,14 @@
         justify-content: center;         */
     }
     .page8 .row1 .col2 h2{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     .page8 .row1 .col2 h4{
         font-size: 2vh;
     }
     .location-map{
         width: 95vw;
+        height:95vw;
     }
     .page8 .row1 .col3{
         height: 20vh;
@@ -552,7 +553,7 @@
         justify-content: center;
     }
     .social-media{
-        font-size: 4vh;
+        font-size: 2.5vh;
     }
     .footer{
         height: 5vh;
