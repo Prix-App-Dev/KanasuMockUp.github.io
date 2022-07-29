@@ -584,5 +584,20 @@
     .page5 .row1 .col2{
         width: 60%;
     }
+    .page8{
+        height: 80vh;
+    }
+    .page8 .row1{
+        height: 75vh;
+    }
+    .page8 .row1 .col1{
+        height: 70vh;
+    }
+    .page8 .row1 .col2{
+        height: 70vh;
+    }
+    .page8 .row1 .col3{
+        height: 70vh;
+    }
     
 }
