@@ -303,6 +303,14 @@
     height: 20vh;
     width: 15vw;
 }
+.partner-logo-mcmp{
+    height: 20vh;
+    width: 15vw;
+    background: url(../images/MCMP-Vertical-Logo-OUTLINED-white-1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .page8 .row1 .col2{
     height: 100%;
     display: flex;
