@@ -422,7 +422,7 @@
     }
     /* -------------------------------------------Page4---------------------------------------------- */
     .page4{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page4 .row1{
@@ -432,7 +432,7 @@
     }
     .page4 .row1 .col1{
         width: 95%;
-        height: 35vh;
+        height: 30vh;
         padding: 0 0 5px 0;
     }
     .page4 .row1 .col2{
@@ -451,7 +451,7 @@
     }
     /* -------------------------------------------Page5---------------------------------------------- */
     .page5{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page5 .row1{
@@ -461,7 +461,7 @@
     }
     .page5 .row1 .col2{
         width: 95%;
-        height: 35vh;                
+        height: 30vh;                
         padding: 0 0 5px 0;
     }
     .page5 .row1 .col1{
@@ -481,7 +481,7 @@
     }
     /* -------------------------------------------Page6---------------------------------------------- */
     .page6{
-        height: 75vh;
+        height: 70vh;
         width:100%;
     }
     .page6 .row1{
@@ -491,7 +491,7 @@
     }
     .page6 .row1 .col1{
         width: 95%;
-        height: 35vh;
+        height: 30vh;
         padding: 0 0 5px 0;
     }
     .page6 .row1 .col2{
